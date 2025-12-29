@@ -79,10 +79,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W      &kp E         &kp R  &kp T                      &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S      &kp D         &kp F  &kp G  &trans      &trans  &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
-&kp Z      &kp X      &kp C         &kp V  &kp B  &trans      &trans  &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
-&kp LCTRL  &kp GRAVE  &kp LEFT_ALT  &mo 3  &mo 2  &mo 1       &trans  &kp SPACE                             &trans
+&kp Q           &kp W      &kp E         &kp R  &kp T                      &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S      &kp D         &kp F  &kp G  &trans      &trans  &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp Z           &kp X      &kp C         &kp V  &kp B  &trans      &trans  &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mo 3  &mo 2  &mo 1       &trans  &kp SPACE                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -102,7 +102,7 @@
         layer_2 {
             bindings = <
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp QUESTION     &kp LESS_THAN      &kp GREATER_THAN  &kp PLUS      &kp TILDE    &trans      &trans  &kp PIPE       &kp UNDERSCORE    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET
+&kp RA(GRAVE)    &kp LESS_THAN      &kp GREATER_THAN  &kp PLUS      &kp TILDE    &trans      &trans  &kp PIPE       &kp UNDERSCORE    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET
 &trans           &trans             &trans            &kp ASTERISK  &kp EQUAL    &trans      &trans  &kp AT_SIGN    &kp GRAVE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
 &trans           &trans             &trans            &trans        &trans       &trans      &trans  &trans                                                                        &trans
             >;
