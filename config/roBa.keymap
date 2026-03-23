@@ -79,10 +79,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W         &kp E   &kp R  &kp T                                           &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D   &kp F  &kp G        &kp LEFT_WIN      &trans           &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
-&kp Z      &kp X         &kp C   &kp V  &kp B        &trans            &trans           &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
-&kp LCTRL  &kp LEFT_ALT  &trans  &mo 3  &lt 2 GRAVE  &mo 1             &kp RIGHT_SHIFT  &kp SPACE                             &trans
+&kp Q      &kp W         &kp E   &kp R  &kp T                                               &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D   &kp F  &kp G            &kp LEFT_WIN      &trans           &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp Z      &kp X         &kp C   &kp V  &kp B            &trans            &trans           &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LCTRL  &kp LEFT_ALT  &trans  &mo 3  &lt 2 LA(GRAVE)  &mo 1             &kp RIGHT_SHIFT  &kp SPACE                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
