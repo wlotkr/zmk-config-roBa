@@ -90,10 +90,10 @@
 
         layer_1 {
             bindings = <
-&trans        &mkp LCLK     &mkp RCLK     &trans        &trans                            &trans        &trans        &trans        &trans        &trans
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans        &trans        &trans        &trans        &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &trans
+&trans        &trans        &trans        &kp NUMBER_4  &kp NUMBER_5                      &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mkp LCLK     &mkp RCLK     &trans      &trans  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans        &trans        &trans            &trans             &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -101,10 +101,10 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH           &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp TAB          &kp LESS_THAN      &kp GREATER_THAN   &kp PLUS      &kp TILDE    &trans      &trans  &kp PIPE       &kp GRAVE         &trans                &kp AT                 &kp COLON
-&trans           &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK  &kp EQUAL    &trans      &trans  &trans         &trans            &trans                &kp SLASH              &kp SEMICOLON
-&trans           &trans             &trans             &trans        &trans       &trans      &trans  &trans                                                                        &kp QUESTION
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp DOLLAR  &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp TAB          &kp LESS_THAN      &kp GREATER_THAN  &kp PLUS    &kp TILDE    &trans      &trans  &kp PIPE       &kp GRAVE         &kp ASTERISK          &kp AT                 &kp COLON
+&trans           &trans             &trans            &trans      &trans       &trans      &trans  &trans         &trans            &kp EQUAL             &kp SLASH              &kp SEMICOLON
+&trans           &trans             &trans            &trans      &trans       &trans      &trans  &trans                                                                        &kp QUESTION
             >;
         };
 
