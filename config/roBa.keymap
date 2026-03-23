@@ -79,10 +79,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W         &kp E   &kp R  &kp T                                         &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D   &kp F  &kp G      &kp LEFT_WIN      &trans           &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
-&kp Z      &kp X         &kp C   &kp V  &kp B      &trans            &trans           &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
-&kp LCTRL  &kp LEFT_ALT  &trans  &mo 3  &kp GRAVE  &mo 1             &kp RIGHT_SHIFT  &kp SPACE                             &trans
+&kp Q      &kp W         &kp E   &kp R  &kp T                                           &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D   &kp F  &kp G        &kp LEFT_WIN      &trans           &kp H      &kp J  &kp K      &kp L    &kp BACKSPACE
+&kp Z      &kp X         &kp C   &kp V  &kp B        &trans            &trans           &kp N      &kp M  &kp COMMA  &kp DOT  &kp ENTER
+&kp LCTRL  &kp LEFT_ALT  &trans  &mo 3  &lt 2 GRAVE  &mo 1             &kp RIGHT_SHIFT  &kp SPACE                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -101,28 +101,19 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp TAB          &kp LESS_THAN      &kp GREATER_THAN  &kp PLUS      &kp TILDE    &trans      &trans  &kp PIPE       &kp UNDERSCORE    &kp LEFT_BRACE        &kp AT                 &kp CARET
-&trans           &trans             &trans            &kp ASTERISK  &kp EQUAL    &trans      &trans  &kp AT_SIGN    &kp GRAVE         &kp LEFT_BRACKET      &kp SLASH              &kp QUESTION
-&trans           &trans             &trans            &trans        &trans       &trans      &trans  &trans                                                                        &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH           &kp DOLLAR    &kp PERCENT                      &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp TAB          &kp LESS_THAN      &kp GREATER_THAN   &kp PLUS      &kp TILDE    &trans      &trans  &kp PIPE       &kp GRAVE         &trans                &kp AT                 &kp COLON
+&trans           &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ASTERISK  &kp EQUAL    &trans      &trans  &trans         &trans            &trans                &kp SLASH              &kp SEMICOLON
+&trans           &trans             &trans             &trans        &trans       &trans      &trans  &trans                                                                        &kp QUESTION
             >;
         };
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp UP_ARROW    &trans           &trans  &trans                      &trans  &trans  &trans  &trans          &trans
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp SEMICOLON   &kp ASTERISK
-&trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp UNDERSCORE  &kp COLON
-&trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans                                  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp UP_ARROW    &trans           &trans  &trans                      &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans      &trans  &trans  &trans  &trans          &trans           &trans
+&trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans  &trans  &trans          &kp UNDERSCORE   &trans
+&trans          &trans          &trans           &trans  &trans  &trans      &trans  &trans                                           &trans
             >;
         };
     };
